@@ -9,7 +9,6 @@ from alive_progress import alive_bar
 
 __BANNER__ = r"""
        
-  
  __    __       ___       ______  __  ___  _______ .______      .______     ______ 
 |  |  |  |     /   \     /      ||  |/  / |   ____||   _  \     |   _  \   /      |
 |  |__|  |    /  ^  \   |  ,----'|  '  /  |  |__   |  |_)  |    |  |_)  | |  ,----'
@@ -18,8 +17,8 @@ __BANNER__ = r"""
 |__|  |__| /__/     \__\ \______||__|\__\ |_______|| _| `._____|| _|       \______|
                                                                                    
                                            
-                                     Made by github.com/g4zzlove
-                                     discord.gg/C6DnHHbSVM
+                                    Made by github.com/g4zzlove
+                                    discord.gg/C6DnHHbSVM
 """
 __UPX__ = requests.get("https://github.com/upx/upx/releases/download/v3.96/upx-3.96-win64.zip", 
                        allow_redirects=True)
